@@ -6,6 +6,7 @@
   (q/frame-rate 30)
   (q/color-mode :hsb)
   (q/background 130 60 40)
+  (q/blend-mode :subtract)
   (q/stroke-weight 1)
   {:img (q/load-image "icon.png")
    :ps (take 30 (repeatedly #(let [x (rand 500)
